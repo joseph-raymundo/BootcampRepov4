@@ -24,8 +24,10 @@
                     <Label id="idLblCcNum" text="{i18n>ccNumLbl}" visible="false"/>
                     <Input id="idInputCcNum" value="" visible="false"/>
                 </f:content>
-            </f:SimpleForm>
+            </f:SimpleForm>            
         </VBox>
+        <core:Fragment fragmentName="com.training.exer1josephraymundo.fragment.ShoppingCart" type="XML" />
+        <!--Start Comment
         <Table id="idTableSCart" inset="false">
                     <headerToolbar>
                         <OverflowToolbar id="idOFT">
@@ -63,7 +65,9 @@
                             </cells>
                         </ColumnListItem>
                     </items>
-                </Table>
+                </Table> 
+                End Comment-->
+
         <footer>
             <OverflowToolbar id="idOFTFooter">
                 <ToolbarSpacer id="idTSpacerFooter"/>
